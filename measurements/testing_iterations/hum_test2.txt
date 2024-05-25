@@ -1,0 +1,47 @@
+initialized
+routine_name duration period PID T hum cap prox T_target(s) dT(s) kp ki kd info
+main_fall1rise1 - 0.2s x x x x 4.00;10.00 -0.20;0.00;0.20 20.00 5.00 30.00 stability test (slow +dT)
+OK
+Base PCB I2C Devices
+Channel 0
+Device at 0x48, Code: 0
+Device at 0x60, Code: 0
+Device at 0x70, Code: 0
+Finished port scan
+Channel 1
+Device at 0x48, Code: 0
+Device at 0x60, Code: 0
+Device at 0x70, Code: 0
+Finished port scan
+Channel 2
+Device at 0x48, Code: 0
+Device at 0x60, Code: 0
+Device at 0x70, Code: 0
+Finished port scan
+Channel 3
+Device at 0x48, Code: 0
+Device at 0x60, Code: 0
+Device at 0x70, Code: 0
+Finished port scan
+
+Flex PCB I2C Devices
+Channel 0
+Device at 0x44, Code: 0
+Device at 0x48, Code: 0
+Device at 0x70, Code: 0
+Finished port scan
+Channel 1
+Device at 0x47, Code: 0
+Device at 0x70, Code: 0
+Finished port scan
+Channel 2
+Device at 0x44, Code: 0
+Device at 0x48, Code: 0
+Device at 0x70, Code: 0
+Device at 0x76, Code: 0
+Finished port scan
+Channel 3
+Device at 0x47, Code: 0
+Device at 0x70, Code: 0
+Finished port scan
+

@@ -1,0 +1,4 @@
+initialized
+routine_name duration period PID T hum cap prox dTs holdTimes kp ki kd info
+main_controlToCap - 0.2s x x x x 0.00;-0.20;0.00;0.20;0.00;-0.40;0.00;0.20;0.00 5000;0;1000;0;2000;0;2000;0;4000 20.00 5.00 30.00 stability test (slow +dT)
+Limits: -0.88 20.62 6507.42 7013.56

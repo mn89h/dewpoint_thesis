@@ -1,0 +1,3 @@
+routine_name duration period PID T hum cap prox T_target(s) dT(s) kp ki kd info
+main_fall1rise1 - 0.2s x x x x 5.50;13.00 -0.80;0.00;1.00 20.00 5.00 30.00 stability test (slow +dT)
+22.13 22.29 22.27 22.29 22.30 22.29 37.30 3.20 0.32 24.00 -0.16 27.52 53461.00 5979.00 8948.07

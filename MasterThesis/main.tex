@@ -1,0 +1,180 @@
+\documentclass[
+	english,
+	ruledheaders=section,%Ebene bis zu der die Überschriften mit Linien abgetrennt werden, vgl. DEMO-TUDaPub
+	class=report,% Basisdokumentenklasse. Wählt die Korrespondierende KOMA-Script Klasse
+	thesis={type=master},% Dokumententyp Thesis, für Dissertationen siehe die Demo-Datei DEMO-TUDaPhd
+	accentcolor=TUDa-2d,% Auswahl der Akzentfarbe
+	custommargins=true,% Ränder werden mithilfe von typearea automatisch berechnet - TODO: maybe false
+	marginpar=false,% Kopfzeile und Fußzeile erstrecken sich nicht über die Randnotizspalte
+	%BCOR=5mm,%Bindekorrektur, falls notwendig
+	parskip=half-,%Absatzkennzeichnung durch Abstand vgl. KOMA-Script
+	fontsize=11pt,%Basisschriftgröße laut Corporate Design ist mit 9pt häufig zu klein
+%	logofile=example-image, %Falls die Logo Dateien nicht vorliegen
+]{tudapub}
+
+
+% Der folgende Block ist nur bei pdfTeX auf Versionen vor April 2018 notwendig
+\usepackage{iftex}
+\ifPDFTeX
+	\usepackage[utf8]{inputenc}%kompatibilität mit TeX Versionen vor April 2018
+\fi
+
+%%%%%%%%%%%%%%%%%%%
+%Sprachanpassung & Verbesserte Trennregeln
+%%%%%%%%%%%%%%%%%%%
+\usepackage[main=english, ngerman]{babel}
+\usepackage[autostyle]{csquotes}% Anführungszeichen vereinfacht
+
+\usepackage{pdfpages}
+
+% Falls mit pdflatex kompiliert wird, wird microtype automatisch geladen, in diesem Fall muss diese Zeile entfernt werden, und falls weiter Optionen hinzugefügt werden sollen, muss dies über
+% \PassOptionsToPackage{Optionen}{microtype}
+% vor \documentclass hinzugefügt werden.
+\usepackage{microtype}
+
+\usepackage{circuitikz}
+\newlength{\schmitt}
+
+\usepackage{wrapfig}
+\usepackage{pgf}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{textcomp}
+
+\captionsetup[subfigure]{justification=centerlast,singlelinecheck=false}
+\graphicspath{{drawings/}}
+% \usepackage{color}
+\usepackage{lipsum}
+
+%%%%%%%%%%%%%%%%%%%
+% bibliography
+%%%%%%%%%%%%%%%%%%%
+ \usepackage[backend=biber,bibstyle=ieee,citestyle=numeric-comp,url=false]{biblatex}
+ \bibliography{Master_intro,Master_concept,Master_implementation,Master_results}
+\DeclareSourcemap{
+  \maps[datatype=bibtex, overwrite=true]{
+    \map{
+      \step[typesource=misc, typetarget=online]
+    }
+  }
+}
+\DeclareDelimFormat[online]{editortypedelim}{\addspace}
+\DeclareFieldFormat[online]{editortype}{}
+
+
+%%%%%%%%%%%%%%%%%%%
+%Paketvorschläge Tabellen
+%%%%%%%%%%%%%%%%%%%
+%\usepackage{array}     % Basispaket für Tabellenkonfiguration, wird von den folgenden automatisch geladen
+\usepackage{tabularx}   % Tabellen, die sich automatisch der Breite anpassen
+%\usepackage{longtable} % Mehrseitige Tabellen
+%\usepackage{xltabular} % Mehrseitige Tabellen mit anpassbarer Breite
+\usepackage{booktabs}   % Verbesserte Möglichkeiten für Tabellenlayout über horizontale Linien
+\usepackage{calculator}
+
+%%%%%%%%%%%%%%%%%%%
+%Paketvorschläge Mathematik
+%%%%%%%%%%%%%%%%%%%
+\usepackage{mathtools} % erweiterte Fassung von amsmath
+\usepackage{amssymb}   % erweiterter Zeichensatz
+\usepackage{siunitx}   % Einheiten
+\sisetup{detect-all}
+
+\usepackage{cleveref}
+
+% Load the package with the acronym option
+\usepackage[acronym,nomain]{glossaries}
+ 
+\loadglsentries{acronyms}
+% Generate the glossary
+\makeglossaries
+
+
+%Formatierungen für Beispiele in diesem Dokument. Im Allgemeinen nicht notwendig!
+\let\file\texttt
+\let\code\texttt
+\let\tbs\textbackslash
+\let\pck\textsf
+\let\cls\textsf
+\biburlsetup
+
+\usepackage{pifont}% Zapf-Dingbats Symbole
+\newcommand*{\FeatureTrue}{\ding{52}}
+\newcommand*{\FeatureFalse}{\ding{56}}
+
+\makeatletter
+\newcommand{\specialcell}[1]{\ifmeasuring@#1\else\omit$\displaystyle#1$\ignorespaces\fi}
+\newcommand{\pushright}[1]{\ifmeasuring@#1\else\omit\hfill$\displaystyle#1$\fi\ignorespaces}
+\newcommand{\pushleft}[1]{\ifmeasuring@#1\else\omit$\displaystyle#1$\hfill\fi\ignorespaces}
+\makeatother
+
+
+\begin{document}
+
+\Metadata{
+	title=Development of a highly integrated Dew Point Hygrometer,
+	author=Malte Nilges
+}
+
+\title{Development of a highly integrated Dew Point Hygrometer}
+% \subtitle{\LaTeX{} using TU Darmstadt's Corporate Design}
+\author[M. Nilges]{Malte Nilges}%optionales Argument ist die Signatur,
+\birthplace{Wiesbaden}%Geburtsort, bei Dissertationen zwingend notwendig
+\reviewer{Dr. Ferdinand Keil \and Prof. Dr. Klaus Hofmann}%Gutachter
+
+%Diese Felder werden untereinander auf der Titelseite platziert.
+%\department ist eine notwendige Angabe, siehe auch dem Abschnitt `Abweichung von den Vorgaben für die Titelseite'
+\department{etit} % Das Kürzel wird automatisch ersetzt und als Studienfach gewählt, siehe Liste der Kürzel im Dokument.
+\institute{Datentechnik}
+\group{Integrierte Elektronische Systeme}
+
+% TODO!
+\submissiondate{\today}
+\examdate{\today}
+
+% Hinweis zur Lizenz:
+% TUDa-CI verwendet momentan die Lizenz CC BY-NC-ND 2.0 DE als Voreinstellung.
+% Die TU Darmstadt hat jedoch die Empfehlung von dieser auf die liberalere
+% CC BY 4.0 geändert. Diese erlaubt eine Verwendung bearbeiteter Versionen und
+% die kommerzielle Nutzung.
+% TUDa-CI wird im nächsten größeren Release ebenfalls diese Anpassung vornehmen.
+% Aus diesem Grund wird empfohlen die Lizenz manuell auszuwählen.
+%\tuprints{urn=XXXXX,printid=XXXX,year=2022,license=cc-by-4.0}
+% To see further information on the license option in English, remove the license= key and pay attention to the warning & help message.
+
+% \dedication{Für alle, die \TeX{} nutzen.}
+\maketitle
+\includepdf{images/affidavit.pdf}
+
+% TODO!
+% Das Affidavit wurde auf Wunsch des Dezernat II per default deaktiviert.
+% Der rechtlich bindende Text findet sich nach Aukunft des Dezernats unter https://www.tu-darmstadt.de/studieren/studierende_tu/studienorganisation_und_tucan/hilfe_und_faq/artikel_details_de_en_37824.de.jsp
+% Es soll die docx Datei verwendet, ausgedruckt, unterschrieben, eingescannt und dann eingebunden werden.
+% Die einfachste Möglichkeit bitet hierüfr das pdfpages Paket.
+%
+% Aus Kompatibilitätsgründen für die anderen Templates ist die Funktion weiterhin verfügbar.
+% \affidavit
+% Es gibt mit Version 3.20 die Möglichkeit ein Bild als Signatur einzubinden.
+% TUDa-CI kann nicht garantieren, dass dies zulässig ist oder eine eigenhändige Unterschrift ersetzt.
+% Dies ist durch Studierende vor der Verwendung abzuklären.
+% Selbiges gilt für den voreingestellten Text der Erklärung. Es ist zwingend notwendig, dass Studierende dies vor der Abgabe überprüfen.
+% Die Jeweils aktuelle Fassung findest sich als docx-Datei unter https://www.tu-darmstadt.de/studieren/studierende_tu/studienorganisation_und_tucan/hilfe_und_faq/artikel_details_de_en_37824.de.jsp
+% Die Verwendung funktioniert so:
+%\affidavit[signature-image={\includegraphics[width=\width,height=1cm]{example-image}}, <hier können andere Optionen zusätzlich stehen>]
+
+
+\tableofcontents
+
+\include{introduction}
+\include{concept}
+\include{implementation}
+\include{results}
+\include{conclusion}
+\include{appendix}
+
+
+\printglossary
+\printbibliography
+
+\end{document}

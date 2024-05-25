@@ -1,0 +1,3 @@
+v_thlow = 1.05V
+V_thhi = 1.55V
+deviation +- 0.05V

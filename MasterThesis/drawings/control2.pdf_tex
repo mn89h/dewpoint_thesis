@@ -1,0 +1,80 @@
+%% Creator: Inkscape 1.3 (0e150ed6c4, 2023-07-21), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'control2.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{192.76667557bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,3.2108676)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{control2.pdf}}%
+    \put(0.25892448,2.89165068){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Set Initial\\Conditions\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{control2.pdf}}%
+    \put(0.25892449,2.59754946){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Turn Off\\PWM\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{control2.pdf}}%
+    \put(0.25892449,2.30344826){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Initiate Sensor\\Measurement\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{control2.pdf}}%
+    \put(0.25892449,1.78877115){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Turn On\\PWM\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{control2.pdf}}%
+    \put(0.25892449,1.49466991){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Fetch\\Sensor Data\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{control2.pdf}}%
+    \put(0.2589245,1.2005687){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Determine\\Next State\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{control2.pdf}}%
+    \put(0.2589245,0.90950634){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Update\\PWM\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{control2.pdf}}%
+    \put(0.25892447,0.61236633){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Transmit\\Data\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{control2.pdf}}%
+    \put(0.43172684,2.01012167){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Wait\end{tabular}}}}%
+    \put(0.45341914,0.05977807){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Finish\end{tabular}}}}%
+    \put(0.43172684,3.11300123){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Start\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{control2.pdf}}%
+    \put(0.8526454,0.15106832){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Wait For\\Period End\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{control2.pdf}}%
+  \end{picture}%
+\endgroup%

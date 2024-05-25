@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="59.320698mm"
+   height="19.756903mm"
+   viewBox="0 0 59.320698 19.756903"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="-19.74375"
+       originy="-53.539583"
+       spacingx="0.26458333"
+       spacingy="0.26458334"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker34"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path34" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker32"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path32" />
+    </marker>
+    <linearGradient
+       id="swatch27"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#f5a301;stop-opacity:1;"
+         offset="0"
+         id="stop27" />
+    </linearGradient>
+    <linearGradient
+       id="swatch26"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#cccccc;stop-opacity:1;"
+         offset="0"
+         id="stop26" />
+    </linearGradient>
+    <linearGradient
+       id="swatch25"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#cccccc;stop-opacity:1;"
+         offset="0"
+         id="stop25" />
+    </linearGradient>
+    <linearGradient
+       id="swatch24"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop24" />
+    </linearGradient>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2" />
+    </marker>
+    <linearGradient
+       id="swatch18"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop18" />
+    </linearGradient>
+    <linearGradient
+       id="swatch15"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop15" />
+    </linearGradient>
+    <linearGradient
+       id="swatch14"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop14" />
+    </linearGradient>
+    <linearGradient
+       id="swatch13"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop13" />
+    </linearGradient>
+    <linearGradient
+       id="swatch12"
+       inkscape:swatch="solid"
+       inkscape:label="grey_light"
+       gradientTransform="matrix(0.07000434,0,0,0.07000434,39.4875,107.07917)">
+      <stop
+         style="stop-color:#cccccc;stop-opacity:1;"
+         offset="0"
+         id="stop12" />
+    </linearGradient>
+    <linearGradient
+       id="swatch11"
+       inkscape:swatch="solid"
+       inkscape:label="grey_dark">
+      <stop
+         style="stop-color:#333333;stop-opacity:1;"
+         offset="0"
+         id="stop11" />
+    </linearGradient>
+    <linearGradient
+       id="swatch10"
+       inkscape:swatch="solid"
+       inkscape:label="white">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop10" />
+    </linearGradient>
+    <linearGradient
+       id="swatch9"
+       inkscape:swatch="solid"
+       inkscape:label="black"
+       gradientTransform="matrix(0.26458333,0,0,0.26458335,1.5373034e-7,1.6058311e-6)">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop9" />
+    </linearGradient>
+    <linearGradient
+       id="swatch4"
+       inkscape:swatch="solid"
+       gradientTransform="scale(0.26458333)"
+       inkscape:label="ies_red">
+      <stop
+         style="stop-color:#b81068;stop-opacity:1;"
+         offset="0"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="swatch3"
+       inkscape:swatch="solid"
+       inkscape:label="ies_blue"
+       gradientTransform="matrix(-1,0,0,0.99999987,2.6958319,26.337502)">
+      <stop
+         style="stop-color:#004c8b;stop-opacity:1;"
+         offset="0"
+         id="stop3" />
+    </linearGradient>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-38" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-3-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-0-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-7-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-3-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-8-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-38-7" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch3"
+       id="linearGradient7-5-3"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.25431243,5.1128401e-5,6.1573782e-4,3.5000005,86.874586,-132.70437)"
+       x1="19.84375"
+       y1="20.505209"
+       x2="30.427082"
+       y2="20.505209" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch24"
+       id="linearGradient18-6-1"
+       x1="38.377117"
+       y1="-41.285248"
+       x2="41.068588"
+       y2="-41.285248"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,2.0104564e-4,1.7592507e-4,1.0000001,53.563869,-19.657579)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch27"
+       id="linearGradient27"
+       x1="37.059341"
+       y1="58.918694"
+       x2="44.996841"
+       y2="58.918694"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(19.74375,53.539584)" />
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-31"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-01" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-31-1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-01-0" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     sodipodi:insensitive="true"
+     style="display:none"
+     transform="translate(-19.74375,-53.539584)">
+    <rect
+       style="opacity:0.5;fill:#000000;fill-opacity:0.172662;stroke:none;stroke-width:6.00001;stroke-linecap:round;stroke-linejoin:round"
+       id="rect1"
+       width="150"
+       height="90"
+       x="0"
+       y="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Layer 2"
+     transform="translate(-19.74375,-53.539584)">
+    <rect
+       style="fill:url(#linearGradient7-5-3);stroke:url(#linearGradient18-6-1);stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect3-0-9-5-0"
+       width="2.6914735"
+       height="37.039528"
+       x="58.258823"
+       y="-59.43647"
+       transform="matrix(0.00160902,0.99999871,-0.99999924,0.00123204,0,0)" />
+    <g
+       id="g20">
+      <g
+         id="g19"
+         style="stroke-width:0.2;stroke-dasharray:none">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded)"
+           d="m 30.691666,47.889585 2.116666,2.116667"
+           id="path18"
+           sodipodi:nodetypes="cc" />
+      </g>
+      <g
+         id="g19-03"
+         style="stroke-width:0.2;stroke-dasharray:none"
+         transform="rotate(-45,34.917211,59.368474)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-31)"
+           d="m 27.885336,45.083255 7.483547,7.483546"
+           id="path18-6"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-31-1)"
+           d="m 26.014449,46.954142 7.483547,7.483546"
+           id="path18-6-9"
+           sodipodi:nodetypes="cc" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0529167"
+           x="89.582207"
+           y="25.565462"
+           id="text34"
+           transform="rotate(45)"
+           inkscape:export-filename="text34.pdf"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan34"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.0529167"
+             x="89.582207"
+             y="25.565462">Heat Pump</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.0529167"
+             x="89.582207"
+             y="30.416162"
+             id="tspan35">Regulation</tspan></text>
+      </g>
+      <g
+         id="g19-5"
+         style="stroke-width:0.2;stroke-dasharray:none"
+         transform="translate(2.6458333,2.6458331)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-3)"
+           d="m 30.691666,47.889585 2.116666,2.116667"
+           id="path18-9"
+           sodipodi:nodetypes="cc" />
+      </g>
+      <g
+         id="g19-0"
+         style="stroke-width:0.2;stroke-dasharray:none"
+         transform="translate(5.2916666,5.2916666)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-7)"
+           d="m 30.691666,47.889585 2.116666,2.116667"
+           id="path18-1"
+           sodipodi:nodetypes="cc" />
+      </g>
+      <g
+         id="g19-4"
+         style="stroke-width:0.2;stroke-dasharray:none"
+         transform="translate(7.9375001,7.9374998)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-8)"
+           d="m 30.691666,47.889585 2.116666,2.116667"
+           id="path18-18"
+           sodipodi:nodetypes="cc" />
+      </g>
+    </g>
+    <g
+       id="g20-3"
+       transform="rotate(-90,41.05635,47.670937)">
+      <g
+         id="g19-8"
+         style="stroke-width:0.2;stroke-dasharray:none">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-0)"
+           d="m 30.691666,47.889585 2.116666,2.116667"
+           id="path18-3"
+           sodipodi:nodetypes="cc" />
+      </g>
+      <g
+         id="g19-5-1"
+         style="stroke-width:0.2;stroke-dasharray:none"
+         transform="translate(2.6458333,2.6458331)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-3-2)"
+           d="m 30.691666,47.889585 2.116666,2.116667"
+           id="path18-9-4"
+           sodipodi:nodetypes="cc" />
+      </g>
+      <g
+         id="g19-0-2"
+         style="stroke-width:0.2;stroke-dasharray:none"
+         transform="translate(5.2916666,5.2916666)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-7-6)"
+           d="m 30.691666,47.889585 2.116666,2.116667"
+           id="path18-1-0"
+           sodipodi:nodetypes="cc" />
+      </g>
+      <g
+         id="g19-4-6"
+         style="stroke-width:0.2;stroke-dasharray:none"
+         transform="translate(7.9375001,7.9374998)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-8-8)"
+           d="m 30.691666,47.889585 2.116666,2.116667"
+           id="path18-18-3"
+           sodipodi:nodetypes="cc" />
+      </g>
+    </g>
+    <rect
+       style="opacity:1;fill:url(#linearGradient27);fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect25"
+       width="10.483333"
+       height="1.2729167"
+       x="35.768749"
+       y="58.208336" />
+    <rect
+       style="opacity:1;fill:url(#swatch12);fill-opacity:1;stroke:#000000;stroke-width:0.0999999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect27"
+       width="2.6458311"
+       height="1.0583318"
+       x="39.6875"
+       y="58.472919" />
+    <rect
+       style="opacity:1;fill:url(#swatch12);fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect28"
+       width="13.229166"
+       height="1.372914"
+       x="34.395832"
+       y="59.481251" />
+    <g
+       id="g30-1"
+       transform="matrix(-1,0,0,1,82.020832,0.05512276)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 59.581245,35.057294 h 3.818752"
+         id="path29-1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 59.581245,42.849395 h 3.818752"
+         id="path30-0"
+         inkscape:label="path30" />
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         id="rect30"
+         width="7.9375"
+         height="14.552083"
+         x="10.583333"
+         y="31.75"
+         transform="matrix(-1,0,0,1,82.020832,-0.05512276)" />
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         id="rect30-8"
+         width="14.552086"
+         height="6.6145811"
+         x="-71.4375"
+         y="63.444878"
+         transform="scale(-1,1)" />
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         id="rect30-8-6"
+         width="14.552086"
+         height="6.6145811"
+         x="-25.135418"
+         y="63.444878"
+         transform="scale(-1,1)" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker32)"
+         d="M 10.583336,38.970921 H 6.6145856 l 0.073493,27.781247 h 3.5964324"
+         id="path31"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker34)"
+         d="m 42.333332,58.946962 h 21.821235 l 0.0069,4.237806"
+         id="path33"
+         sodipodi:nodetypes="ccc" />
+    </g>
+  </g>
+</svg>
